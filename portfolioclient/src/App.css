@@ -1,0 +1,90 @@
+
+
+:root {
+
+  --main-color :#1ef2f1;
+
+  --main-color-2 : #181818;
+
+  --main-color-3 : white;
+
+  --main-color-4 : rgb(8, 8, 8);
+  
+  --lighting-color: rgb(74,255,252);
+  
+  }
+ 
+
+
+  
+
+
+  /**/
+
+  .heading1 {
+
+  }
+  .heading2{
+    font-size: 45px;
+
+  }
+
+  .heading3 {
+    font-size: 22px;
+  }
+
+  .heading4 {
+    font-size: 18px;
+  }
+
+  .heading5 {
+    font-size: 14px;
+  }
+
+  
+  
+  
+
+
+ /* title of sections*/
+.section-heading{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+margin-top: 100px;
+
+}
+
+
+.main-container {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  flex-direction: column;
+  vertical-align: center;
+  align-items: center !important;
+}
+
+.second-container  {
+ display: flex;
+}
+
+
+/*animation css */
+
+
+
+
+
+
+
+@media screen and (max-width: 300px)  {
+
+
+ 
+  
+}
+
+
+

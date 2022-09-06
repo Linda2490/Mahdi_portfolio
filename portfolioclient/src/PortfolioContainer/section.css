@@ -1,0 +1,14 @@
+.footer {
+
+}
+
+
+.global-heading-title {
+  color: var(--main-color-3);
+  font-weight: 600;
+}
+
+.global-heading-text {
+  color: var(--main-color);
+  
+}
