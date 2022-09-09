@@ -1,68 +1,45 @@
-import React from 'react'
-import './App.css'
-import Contact from './PortfolioContainer/contact/Contact'
-import Section from './PortfolioContainer/sectionHeader'
-import Home from './PortfolioContainer/Home/Home'
-import Vision from './PortfolioContainer/Home_following/vision'
-import Navbar from './PortfolioContainer/Navbar/Navbar'
-import Services from './PortfolioContainer/services_component/services'
-import Works from './PortfolioContainer/works/Works'
-import ReviewsSlider from './PortfolioContainer/Testimonials/ReviewsSlider'
-import PartnerSlider from './PortfolioContainer/clients/PartnersSlider'
-import TechSlider from './PortfolioContainer/services_component/TechSlider'
-
+import React from "react";
+import "./App.css";
+import Contact from "./PortfolioContainer/contact/Contact";
+import Section from "./PortfolioContainer/sectionHeader";
+import Home from "./PortfolioContainer/Home/Home";
+import Vision from "./PortfolioContainer/Home_following/vision";
+import Navbar from "./PortfolioContainer/Navbar/Navbar";
+import Services from "./PortfolioContainer/services_component/services";
+import Works from "./PortfolioContainer/works/Works";
+import ReviewsSlider from "./PortfolioContainer/Testimonials/ReviewsSlider";
+import PartnerSlider from "./PortfolioContainer/clients/PartnersSlider";
+import TechSlider from "./PortfolioContainer/services_component/TechSlider";
 
 function App() {
   return (
-    <div className='second-container'>
-       <pre className="hacking-animation__text">
-    </pre>
-    <div className="main-container">
-      
-     
-     <Navbar />
-     
+    <div className="second-container">
+      <pre className="hacking-animation__text"></pre>
+      <div className="main-container">
+        <Navbar />
 
-      <Home />
-      <Vision/>
+        <Home />
+        <Vision />
 
-      <Section
-      ID='Services'
-      title="Services"
-      subtitle='OUR SERVICES FOR CLIENTS'
-      />
+        <Section
+          ID="works"
+          title="Projects"
+          subtitle="THINGS WE'VE MADE FOR OUR CLIENTS"
+        />
 
-      <Services />
-      <TechSlider/>
-     
+        <Works />
 
-      <Section
-      ID='works'
-      title="Works"
-      subtitle="THINGS WE'VE MADE FOR OUR CLIENTS"
-      />
+        <Section
+          ID="Testimonials"
+          title="Testimonials"
+          subtitle="OUR SERVICES FOR CLIENTS"
+        />
+        <ReviewsSlider />
 
-      <Works />
-
-      <Section
-      ID='Testimonials'
-      title="Testimonials"
-      subtitle="OUR SERVICES FOR CLIENTS"
-      />
-      <ReviewsSlider/>
-
-      <Section
-      title="Our clients"
-      subtitle="OUR SERVICES FOR CLIENTS"
-      />
-
-      <PartnerSlider/>
-       
-     
-      <Contact />
+        <Contact />
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

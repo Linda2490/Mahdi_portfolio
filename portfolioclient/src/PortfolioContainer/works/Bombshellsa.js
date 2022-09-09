@@ -2,8 +2,8 @@ import React from 'react'
 import "./Works.css";
 function Bombshellsa() {
     return (
-        <div className="portfolio">
-        <div className="portfolio-sample">
+        <div className="works-container">
+        <div className="cover-image">
           <img src="./images/websites/Image 2.png "></img>
         </div>
 

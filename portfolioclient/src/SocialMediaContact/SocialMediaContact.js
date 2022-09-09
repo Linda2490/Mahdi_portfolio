@@ -6,6 +6,7 @@ function SocialMediaContact() {
     return (
         <section className='social-media-container'>
           <div className='pic-profile'><img  src='./images/my_picture.png'/></div> 
+          <h3>MAHDI WEB</h3>
           <a className="social-media-button" href="https://www.linkedin.com/in/mahdi-kaaniche-web-dev/">
           <div >
             <div className='horizontal'>

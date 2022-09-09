@@ -46,7 +46,7 @@ export default function Navbar() {
             </a>
             <a >
               <li >
-              <Link className="items" to="social_media_links"> SOCIAL MEDIA CONTACT</Link>
+              <Link className="items" to="social_media_links"> SOCIAL</Link>
               </li>
             </a>
             <a >

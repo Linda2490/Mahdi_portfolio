@@ -20,6 +20,7 @@ function App() {
         <Route path="/businessProfile" element={<BusinessProfile />} />
         <Route path="/social_media_links/businessProfile" element={<BusinessProfile />} />
         <Route path="/social_media_links" element={<SocialMediaContact />} />
+        <Route path="/businessProfile/social_media_links" element={<SocialMediaContact />} />
         <Route path="/bombshellsa-website" element={<Bombshellsa />} />
         <Route path="/agencyonefr-website" element={<Agencyonefr />} />
         <Route path="/showtagtv-website" element={<Showtagtv />} />

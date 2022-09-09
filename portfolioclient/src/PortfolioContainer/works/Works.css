@@ -127,6 +127,17 @@ padding: .8em 2.7em;
 
   margin-bottom: 60px;
 }
+.cover-image img{
+  display: flex;
+  justify-content: center;
+  height: fit-content ;
+  width: fit-content ;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+  
+  
+  
+}
 
 
 @media screen and (max-width:768px){

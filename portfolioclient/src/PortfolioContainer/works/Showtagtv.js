@@ -3,8 +3,8 @@ import "./Works.css";
 
 function Showtagtv() {
     return (
-        <div className="portfolio">
-        <div className="portfolio-sample">
+        <div className="works-container">
+        <div className="cover-image">
           <img src="./images/websites/Image 1.png"></img>
         </div>
 
