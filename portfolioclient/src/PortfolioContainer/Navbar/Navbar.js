@@ -34,7 +34,7 @@ export default function Navbar() {
               <li className="items"> Services</li>
             </a>
             <a >
-              <li >
+              <li className="items" >
               <Link className="items" to="allworks"> works</Link>
               </li>
             </a>
@@ -45,12 +45,13 @@ export default function Navbar() {
               <li className="items">Contact</li>
             </a>
             <a >
-              <li >
+              <li className="items">
               <Link className="items" to="social_media_links"> SOCIAL</Link>
               </li>
             </a>
+            
             <a >
-              <li >
+              <li className="items">
               <Link className="items" to="businessProfile"> BUSINESS PROFILE</Link>
               </li>
             </a>
