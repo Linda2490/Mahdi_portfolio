@@ -33,7 +33,7 @@ function BusinessProfile() {
             <TechSlider/>
             <Section
       ID='works'
-      title="Works"
+      title="Projects"
       subtitle="THINGS WE'VE MADE FOR OUR CLIENTS"
       />
        <Works />
